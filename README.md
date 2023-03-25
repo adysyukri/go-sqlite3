@@ -12,7 +12,6 @@ migrate create -ext sql -dir db/migrations -seq create_table
 
 migrate -database sqlite3://test.db -path db/migrations up
 
-
 migrate -database sqlite3://test.db -path db/migrations down
 
 ```
